@@ -15,6 +15,7 @@
 		1176F5121DE3EA0000349ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1176F5101DE3EA0000349ADF /* LaunchScreen.storyboard */; };
 		1176F51D1DE3EA0000349ADF /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1176F51C1DE3EA0000349ADF /* meituanTests.m */; };
 		1176F5281DE3EA0000349ADF /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1176F5271DE3EA0000349ADF /* meituanUITests.m */; };
+		1176F5371DE3EBC400349ADF /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1176F5361DE3EBC400349ADF /* dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1176F5231DE3EA0000349ADF /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1176F5271DE3EA0000349ADF /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		1176F5291DE3EA0000349ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1176F5351DE3EBC400349ADF /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		1176F5361DE3EBC400349ADF /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1176F5061DE3EA0000349ADF /* AppDelegate.m */,
 				1176F5081DE3EA0000349ADF /* ViewController.h */,
 				1176F5091DE3EA0000349ADF /* ViewController.m */,
+				1176F5351DE3EBC400349ADF /* dog.h */,
+				1176F5361DE3EBC400349ADF /* dog.m */,
 				1176F50B1DE3EA0000349ADF /* Main.storyboard */,
 				1176F50E1DE3EA0000349ADF /* Assets.xcassets */,
 				1176F5101DE3EA0000349ADF /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				1176F50A1DE3EA0000349ADF /* ViewController.m in Sources */,
 				1176F5071DE3EA0000349ADF /* AppDelegate.m in Sources */,
+				1176F5371DE3EBC400349ADF /* dog.m in Sources */,
 				1176F5041DE3EA0000349ADF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
